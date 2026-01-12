@@ -6,7 +6,7 @@
 
 **Expert System** is a web-based, no-code machine learning platform designed to simplify the entire machine learning workflow. It enables users to build, train, visualize, evaluate, and deploy machine learning models **without writing any code**.
 
-The system focuses on improving the **workflow of model building** by offering an intuitive graphical interface that removes the complexity of traditional ML frameworks. It is especially useful for beginners and non-technical users who want hands-on exposure to machine learning concepts.
+The system focuses on improving the **workflow of model building** by offering an intuitive graphical interface that removes the complexity of traditional ML frameworks. It is especially useful for beginners and non-technical users who want hands-on exposure to machine learning concepts while clearly understanding each step of the process.
 
 ---
 
@@ -23,6 +23,14 @@ There is a need for a **no-code machine learning system** that:
 
 ---
 
+## 🌍 Why This Idea Matters
+
+Machine learning adoption is growing rapidly, but **model building remains inaccessible** to a large section of users due to steep technical requirements. Many platforms either focus on **automation without understanding** or remain **code-heavy and complex**.
+
+**Expert System prioritizes workflow clarity over automation**, ensuring users understand *what happens at each stage* of the ML pipeline while still remaining completely no-code. This makes the platform suitable not only for building models, but also for **learning how machine learning works in practice**.
+
+---
+
 ## 🎯 Objectives
 
 * Allow users to upload datasets and preprocess data easily
@@ -31,6 +39,53 @@ There is a need for a **no-code machine learning system** that:
 * Provide interactive visualizations for better understanding of results
 * Help users understand ML concepts through guided walkthroughs
 * Allow trained models to be exported for real-world use
+
+---
+
+## ✨ What Makes Expert System Different
+
+Unlike traditional AutoML tools or notebook-based environments, **Expert System is workflow-oriented**.
+
+It:
+
+* Focuses on **step-by-step ML workflow transparency**
+* Avoids black-box automation
+* Encourages **guided decision-making** instead of one-click results
+* Combines **education and experimentation** in a single interface
+* Allows users to visually follow the **data → model → result** flow
+
+The goal is not just faster models, but **clearer understanding**.
+
+---
+
+## 🧪 Real-World Use Case Example
+
+**Scenario:**
+A college student has a CSV dataset and wants to predict student performance but has no coding experience.
+
+**Using Expert System:**
+
+1. Uploads the dataset
+2. Cleans and preprocesses data using UI controls
+3. Selects a classification algorithm
+4. Visualizes correlations and clusters
+5. Trains the model and evaluates accuracy
+6. Exports the trained model for future predictions
+
+All steps are completed **without writing code**, while still understanding *why* each step exists.
+
+---
+
+## 🤖 Role of AI in the System
+
+AI is used as an **enabler**, not a replacement for learning.
+
+* Assists in algorithm selection guidance
+* Helps interpret visualizations and model behavior
+* Provides contextual hints and explanations
+* Accelerates experimentation without hiding logic
+
+The focus is to **speed up understanding**, not just outcomes.
 
 ---
 
@@ -78,7 +133,7 @@ There is a need for a **no-code machine learning system** that:
 
 ## 📊 Machine Learning Capabilities
 
-* Supports **7 popular machine learning algorithms**
+* Supports **7 machine learning algorithms**
 * Covers:
 
   * Classification
@@ -110,8 +165,8 @@ There is a need for a **no-code machine learning system** that:
 
 * D3.js
 * Plotly.js
-* Prism.js (Syntax Highlighting)
-* Intro.js (Guided Tours)
+* Prism.js
+* Intro.js
 
 ---
 
@@ -136,19 +191,70 @@ There is a need for a **no-code machine learning system** that:
 
 ---
 
-## 📦 Scope
+## 🔮 Future Vision
 
-* No-code ML model development
-* End-to-end ML workflow management
-* Visualization-driven learning
-* Model export for external usage
-* Scalable architecture for future extensions
+Expert System can evolve into a complete **ML workflow assistant** by adding:
 
----
+* Smart preprocessing recommendations
+* Model comparison dashboards
+* Dataset quality analysis
+* Collaborative model building
+* Cloud-based deployment support
 
-## ✅ Conclusion
-
-The **Expert System – A No-Code UI for Machine Learning** simplifies the entire machine learning pipeline by providing a structured, visual, and user-friendly platform. It improves the workflow of model building while making machine learning more accessible, understandable, and practical for a wider audience.
+The long-term vision is to make **machine learning approachable, explainable, and workflow-driven**.
 
 
+
+## ⚙️ Installation & Setup
+
+Clone the project:
+
+```
+git clone "repository link"
+
+```
+
+Navigate to the project directory:
+
+```bash
+cd expertsystem-main
+```
+
+Create a virtual environment:
+
+```bash
+python -m venv myenv
+```
+
+Activate the virtual environment:
+
+**Linux / macOS**
+
+```bash
+source myenv/bin/activate
+```
+
+**Windows**
+
+```bash
+.\myenv\Scripts\activate
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run database migrations:
+
+```bash
+python manage.py migrate
+```
+
+Start the Django development server:
+
+```bash
+python manage.py runserver
+```
 
