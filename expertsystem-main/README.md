@@ -147,13 +147,3 @@ The application will be accessible at at http://127.0.0.1:8000/ .
 
 ---
 
-<a href="https://github.com/akshay-rajan/expertsystem/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=akshay-rajan/expertsystem" />
-</a>
-
-> **Akshay R**,
->**Deepu Joseph**,
->*Masters in Computer Applications*,
->*College of Enginnering, Trivandrum*
->(*2023-25*)
-
